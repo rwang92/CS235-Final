@@ -208,9 +208,9 @@ class simplenet2(nn.Module):
  
 #  generate simulation data 2
  
-x_train= np.random.uniform(low=-3,high=3,size=(5000,2))
+x_train= np.random.uniform(low=-30,high=30,size=(5000,2))
 y1_train=10*np.exp(-2*((x_train[:,0]-10)**2+(x_train[:,1]-10)**2))+30*np.exp(-2*(x_train[:,0]**2+x_train[:,1]**2))+10*np.exp(-2*((x_train[:,0]-20)**2+(x_train[:,1]+20)**2))+10*np.exp(-2*((x_train[:,0]+30)**2+(x_train[:,1]-30)**2))+np.random.normal(0,1,size=(5000,1)).T  
-x_test= np.random.uniform(low=-3,high=3,size=(1000,2))
+x_test= np.random.uniform(low=-30,high=30,size=(1000,2))
 y1_test=10*np.exp(-2*((x_test[:,0]-10)**2+(x_test[:,1]-10)**2))+30*np.exp(-2*(x_test[:,0]**2+x_test[:,1]**2))+10*np.exp(-2*((x_test[:,0]-20)**2+(x_test[:,1]+20)**2))+10*np.exp(-2*((x_test[:,0]+30)**2+(x_test[:,1]-30)**2))+np.random.normal(0,1,size=(1000,1)).T  
   
 # load data in PyTorch
