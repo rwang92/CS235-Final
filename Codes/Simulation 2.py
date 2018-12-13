@@ -220,7 +220,7 @@ class simplenet2(nn.Module):
 
   x_train=np.concatenate((x0_train,x10_train,x20_train,x30_train),axis=0)
   
-  y5_train=1+0.01*(10*np.exp(-2*((x_train[:,0]-10)**2+(x_train[:,1]-10)**2))+30*np.exp(-2*(x_train[:,0]**2+x_train[:,1]**2))+10*np.exp(-2*((x_train[:,0]-20)**2+(x_train[:,1]+20)**2))+10*np.exp(-2*((x_train[:,0]+30)**2+(x_train[:,1]-30)**2)))+np.random.normal(0,1,size=(5000,1)).T  
+  y5_train=1+0.1*(10*np.exp(-2*((x_train[:,0]-10)**2+(x_train[:,1]-10)**2))+30*np.exp(-2*(x_train[:,0]**2+x_train[:,1]**2))+10*np.exp(-2*((x_train[:,0]-20)**2+(x_train[:,1]+20)**2))+10*np.exp(-2*((x_train[:,0]+30)**2+(x_train[:,1]-30)**2)))+np.random.normal(0,1,size=(5000,1)).T  
   
   #x_test= np.random.uniform(low=-30,high=30,size=(1000,2))
   
@@ -234,7 +234,7 @@ class simplenet2(nn.Module):
 
   x_test=np.concatenate((x0_test,x10_test,x20_test,x30_test),axis=0)
   
-  y5_test=1+0.01*(10*np.exp(-2*((x_test[:,0]-10)**2+(x_test[:,1]-10)**2))+30*np.exp(-2*(x_test[:,0]**2+x_test[:,1]**2))+10*np.exp(-2*((x_test[:,0]-20)**2+(x_test[:,1]+20)**2))+10*np.exp(-2*((x_test[:,0]+30)**2+(x_test[:,1]-30)**2)))+np.random.normal(0,1,size=(1000,1)).T  
+  y5_test=1+0.1*(10*np.exp(-2*((x_test[:,0]-10)**2+(x_test[:,1]-10)**2))+30*np.exp(-2*(x_test[:,0]**2+x_test[:,1]**2))+10*np.exp(-2*((x_test[:,0]-20)**2+(x_test[:,1]+20)**2))+10*np.exp(-2*((x_test[:,0]+30)**2+(x_test[:,1]-30)**2)))+np.random.normal(0,1,size=(1000,1)).T  
  
 # load data in PyTorch
  
