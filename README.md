@@ -1,4 +1,7 @@
-# CS235-Final
+# CS235 Final Project
+
+![](https://github.com/rwang92/CS235-Final/blob/master/image/pp10.png)
+![](https://github.com/rwang92/CS235-Final/blob/master/image/pp6.png)
 
 This is for UC, Riverside CS 235 Data Mining Techniques Final Project: **Why Are Tree-Based Methods Effective for Structural Data Modeling: An Exploration**
 
