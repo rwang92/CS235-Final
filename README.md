@@ -8,8 +8,8 @@ To run the codes for simulation studies, we highly recommend to use Colaborary b
 
 [Simulation 1](https://colab.research.google.com/drive/1XJXgkvvBrvHGUcL8JVH22r0I_fGUL1SB)
 
-[Simulation 2](https://colab.research.google.com/drive/1XJXgkvvBrvHGUcL8JVH22r0I_fGUL1SB)
+[Simulation 2](https://colab.research.google.com/drive/1UfQUzvcUWs7hYEqx8UXgOQd-TREJZIZP)
 
-[Simulation 3](https://colab.research.google.com/drive/1XJXgkvvBrvHGUcL8JVH22r0I_fGUL1SB)
+[Simulation 3](https://colab.research.google.com/drive/14Seu-Z_fKeGu0LSVkyiaWvDuhnbtBH6I)
 
 The real data experiment folder contains the codes for implementing SNN, NN and HME on [Google Analytics Customer Revenue Prediction dataset](https://www.kaggle.com/c/ga-customer-revenue-prediction). Since the whole dataset is too large to load in local machine, we just run the codes on the Kaggle Kernel. 
