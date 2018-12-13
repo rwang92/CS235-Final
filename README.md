@@ -2,7 +2,7 @@
 
 ![](https://github.com/rwang92/CS235-Final/blob/master/image/pp10.png)
 
-This is for UC, Riverside CS 235 Data Mining Techniques Final Project: **Why Are Tree-Based Methods Effective for Structural Data Modeling: An Exploration**
+This is for UC, Riverside CS 235 Data Mining Techniques Final Project: [**Why Are Tree-Based Methods Effective for Structural Data Modeling: An Exploration**](https://github.com/rwang92/CS235-Final/blob/master/paper/Why%20are%20Tree-Based%20Methods%20Effective%20for%20Structural%20Data.pdf)
 
 The [codes folder](https://github.com/rwang92/CS235-Final/tree/master/Codes) contains the Python codes for the three simulations (packages needed: Python:`PyTorch, Numpy, Matplotlib`,`CUDA`).
 
